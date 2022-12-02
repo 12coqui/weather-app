@@ -133,7 +133,7 @@ function displayHourly (data) {
         const hourlyTemp = document.createElement('div')
         const hourlyDescription = document.createElement('div')
         hourlyTime.textContent = `${el.time} hs`
-        hourlyIcon.innerHTML = `<img src="http://openweathermap.org/img/wn/${el.icon}.png" alt="" srcset="">`
+        hourlyIcon.innerHTML = `<img src="http://openweathermap.org/img/wn/${el.icon}.png" alt="">`
         hourlyTemp.textContent = ` ${el.temp}° `
         hourlyDescription.textContent = `${el.description}`
         hourly_container.appendChild(hourlyTime)
@@ -157,7 +157,7 @@ function displayDaily(data) {
         const dailyTempMin = document.createElement('span')
         const dailyTempMax = document.createElement('span')
         dailyTime.textContent = `${el.time}`
-        dailyIcon.innerHTML = `<img src="http://openweathermap.org/img/wn/${el.icon}.png" alt="" srcset="">`
+        dailyIcon.innerHTML = `<img src="http://openweathermap.org/img/wn/${el.icon}.png" alt="">`
         dailyTempMin.textContent = `L: ${el.temp_min}° `
         dailyTempMax.textContent = `H:${el.temp_max}°`
         daily_container.appendChild(dailyTime)
