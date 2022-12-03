@@ -106,9 +106,6 @@ h1 {
     margin-top: 1rem;
 }
 
-.daily_container {
-    padding: .5rem;
-}
 
 .hourly {
     padding: .25rem;
@@ -124,14 +121,20 @@ h1 {
     display: grid;
     justify-items: center;
     align-content: center;
-    width: max-content;
+    width: mix-content;
     height: min-content;
     background-color: rgba(0, 0, 0, .1);
     border-radius: .5rem;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
-    margin: .25rem 0 .25rem;
+    margin: 0 .65rem 0 0.65rem;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
+.daily_container {
+    padding: .25rem;
+    margin: 0.25rem;
+}
 .hourly-description {
     font-size: .7rem;
     height: min-content;
